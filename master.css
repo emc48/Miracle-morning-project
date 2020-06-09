@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     color: purple;
-    margin: 0px;
+    padding: 0px;
 }
 
 .Pages {
@@ -25,10 +25,17 @@ h1 {
 
 .NavItem {
     height: 30px;
-    font-size-adjust: inherit;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: fuchsia;
+    font-size: 35px;
+    /* 100 = viewport width, as 1vw = 1/100th of that
+       So if the container is 50% of viewport (as here)
+       then factor that into how you want it to size.
+       Let's say you like 5vw if it were the whole width,
+       then for this container, size it at 2.5vw (5 * .5 [i.e. 50%])
+    */
+    font-size: 2vh
 }
 
 h2 {
@@ -38,6 +45,24 @@ h2 {
     justify-content: center;
     font-size: x-large;
     padding: 20px;
+    font-size: 50px;
+    font-size: 3vw
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 7vw;
+  }
+  
+}
+
+@media only screen and (min-width: 700px) {
+  iframe {
+    width: 500px
+  }
+  .NavItem {
+    font-size: 2vw;
+  }
 }
 
 
