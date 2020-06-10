@@ -5,7 +5,7 @@ Meditation- links to youtube pages
 
 Visualise- used as an image "vision board" style page
 
-Read- with an option for the user to add a list of books they would like to read
+Read- with an option for the user to add a list of books they would like to read and that they can tick off on the site
 
 Affrimations- the user can click on which emotion they would like to feel and affrimations will pop up that users can use.
 
