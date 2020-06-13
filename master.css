@@ -4,6 +4,10 @@ h1 {
     padding: 0px;
 }
 
+.indexImages {
+  width: inherit;
+}
+
 .Pages {
     position: relative;
     text-align: center;
@@ -12,9 +16,11 @@ h1 {
 .step {
   color:fuchsia;
   font-size: 35px;
-  text-align: center;
-  padding: 50px;
+}
 
+.stepContainer {
+  text-align: center;
+  height: 125px;
 }
 
 .nav-item{
